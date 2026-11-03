@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff8f3">
+  <meta name="description" content="A little birthday love letter for Namratha, made with all my heart — Arjun.">
+  <title>For Namratha, with love ✿</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div id="petals" aria-hidden="true"></div>
+  <main>
+    <section class="welcome" id="welcome" aria-label="Birthday greeting">
+      <div class="welcome-photo"></div>
+      <div class="welcome-card">
+        <span class="eyebrow"><span class="tiny-heart">♥</span> A LITTLE SOMETHING, JUST FOR YOU</span>
+        <div class="birthday-cake" aria-hidden="true"><span>✿</span></div>
+        <p class="script greeting-small">For my favourite person</p>
+        <h1>Happy Birthday,<br><em>My Love</em> <span class="red-heart">♥</span></h1>
+        <p class="welcome-copy">Today is all about you, Namratha.<br>I made this little corner of the world just for us.</p>
+        <button class="button button-primary" id="open-surprise">Open Your Surprise <span>♡</span></button>
+        <span class="made-with">made with my whole heart · Arjun</span>
+      </div>
+      <span class="corner-note">a day as lovely as you</span>
+    </section>
+
+    <div class="site-shell" id="site" inert>
+      <header class="topbar"><a class="brand" href="#home" aria-label="Back to top">A <span>♡</span> N</a><nav><a href="#memories">our moments</a><a href="#letter">my letter</a><a href="#games">little games</a><a href="#last">one last thing</a></nav><button class="sound-toggle" id="sound-toggle" aria-label="Pause background music" title="Pause music">♫ <span id="sound-label">Sound on</span></button></header>
+      <section class="hero section" id="home">
+        <div class="hero-copy"><span class="eyebrow">TO MY PERSON, ON HER DAY ✿</span><h2>Somehow, the world<br>got <em>you.</em> And I got lucky.</h2><p>Here are a few little pieces of us, gathered in one place—because your birthday deserves more than just a text.</p><a class="text-link" href="#memories">Take a little walk with me <span>↓</span></a></div>
+        <div class="hero-image-wrap"><img src="photos/memory-06.jpg" alt="Arjun and Namratha together, smiling on a day out" class="hero-image"><span class="photo-sticker">my favourite<br>view <b>♡</b></span><span class="image-sparkle">✦</span></div>
+        <span class="hero-flower flower-one">✿</span><span class="hero-flower flower-two">✧</span>
+      </section>
+
+      <section class="section memories" id="memories">
+        <div class="section-heading"><span class="eyebrow">THE LITTLE THINGS ARE THE BIG THINGS</span><h2>Our little <em>universe</em></h2><p>Every version of you is my favourite version of you.</p></div>
+        <div class="memory-stage"><button class="carousel-arrow previous" id="prev-photo" aria-label="Previous memory">←</button><figure class="memory-frame"><img id="memory-photo" src="photos/memory-06.jpg" alt="A favourite memory of Arjun and Namratha"><figcaption><span class="memory-kicker" id="memory-kicker">A LITTLE US MOMENT</span><span id="memory-caption">My favourite place is wherever you are.</span><span class="memory-date" id="memory-date">one of our lovely days</span></figcaption></figure><button class="carousel-arrow next" id="next-photo" aria-label="Next memory">→</button></div>
+        <div class="memory-dots" id="memory-dots" aria-label="Choose a memory"></div><p class="gallery-hint">tap the arrows to wander through our memories <span>✿</span></p>
+      </section>
+
+      <section class="section letter-section" id="letter">
+        <div class="letter-intro"><span class="eyebrow">OPEN WHEN YOU HAVE A MINUTE</span><h2>A letter,<br><em>from my heart.</em></h2><p>For you, Namratha. For today, and for every day after.</p></div>
+        <div class="letter-card" id="letter-card"><div class="letter-flower">✿</div><p class="letter-to">My dearest Namratha,</p><div class="letter-body" id="letter-body" aria-live="polite"></div><p class="letter-signoff" id="letter-signoff">All my love, always,<br><span>Arjun <i>♥</i></span></p><button class="button button-outline" id="read-letter">Read My Letter <span>♡</span></button></div>
+      </section>
+
+      <section class="section song-section"><div class="song-orbit"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><span class="song-heart">♥</span><span class="orbit-note note-a">♪</span><span class="orbit-note note-b">♫</span></div><div class="song-copy"><span class="eyebrow">A SONG THAT FEELS LIKE YOU</span><h2>Our own little<br><em>soundtrack.</em></h2><p>I started our song when you opened your surprise. Let it play softly while we wander through our little memories.</p><span class="song-credit">♪ &nbsp; Preetiya Hesare Neenu</span></div></section>
+
+      <section class="section games-section" id="games"><div class="section-heading"><span class="eyebrow">A LITTLE PLAY DATE</span><h2>Two tiny games.<br><em>One very cute winner.</em></h2><p>Ready, birthday girl? I believe in you. (Mostly.)</p></div>
+        <div class="game-tabs"><button class="game-tab active" data-game="catch">♡ Catch my love</button><button class="game-tab" data-game="match">✿ Find your pairs</button></div>
+        <div class="game-card" id="catch-game"><div class="game-topline"><span>GAME 01 · THE HEART CATCHER</span><span id="catch-score">0 / 7 hearts</span></div><h3>Catch the little hearts!</h3><p>Tap 7 hearts before they float away. You've got this, love.</p><div class="heart-field" id="heart-field"><span class="field-hint">Your hearts will appear here ✿</span></div><button class="button button-primary game-start" id="start-catch">Let's play <span>♡</span></button><p class="game-message" id="catch-message" aria-live="polite"></p></div>
+        <div class="game-card hidden" id="match-game"><div class="game-topline"><span>GAME 02 · THE HEART MATCH</span><span id="match-count">0 / 6 pairs</span></div><h3>Find the matching pairs</h3><p>There are six pairs hiding here. Just like us, they belong together.</p><div class="match-grid" id="match-grid"></div><button class="button button-outline game-start" id="reset-match">Shuffle again <span>↻</span></button><p class="game-message" id="match-message" aria-live="polite"></p></div>
+        <p class="game-footer">No matter your score, you're still my number one. <span>♥</span></p>
+      </section>
+
+      <section class="section final-section" id="last"><div class="final-photo"><img src="photos/memory-10.jpg" alt="Namratha in a red saree, smiling on the stairs"><span class="final-sticker">the best<br>part of my<br>every day ♡</span></div><div class="final-copy"><span class="eyebrow">AND BEFORE YOU GO...</span><h2>One last<br><em>little thing.</em></h2><p>Make a wish, birthday girl. I hope this next trip around the sun brings you every soft, bright, wonderful thing you deserve.</p><button class="button button-primary" id="last-surprise">One Last Surprise <span>♡</span></button><div class="last-reveal" id="last-reveal" aria-live="polite"><span class="reveal-flower">✿</span><p>Even if you lost again, you will be my favorite person and I Love You <span class="last-heart">❤️</span></p><span class="reveal-sign">— Arjun</span></div></div></section>
+      <footer><span>Made with love, just for Namratha <i>♥</i></span><span>her day · our little universe · always</span></footer>
+    </div>
+  </main>
+  <audio id="bgm" src="preetiya-hesare-neenu.mp3" loop preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
