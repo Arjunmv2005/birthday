@@ -77,7 +77,7 @@
     if (Math.abs(delta) > 48) showMemory(memoryIndex + (delta < 0 ? 1 : -1));
   }, { passive: true });
 
-  const letter = `Happy birthday to the loveliest person in my world.\n\nNamratha, you make ordinary days softer and good days unforgettable. I love your laugh, your kindness, the way you make a place feel like home just by being in it. I hope this new year of your life gives back all the joy you bring to the people who love you.\n\nThank you for being you, and for letting me be beside you. Wherever life takes us, I will always be cheering for you, choosing you, and finding new reasons to fall for you.\n\nToday is yours, my love. Make the biggest wish. You deserve every beautiful thing.`;
+  const letter = `Happy birthday to the loveliest person in my world.\n\nNammu, you make ordinary days softer and good days unforgettable. I love your laugh, your kindness, the way you make a place feel like home just by being in it. I hope this new year of your life gives back all the joy you bring to the people who love you.\n\nThank you for being you, and for letting me be beside you. Wherever life takes us, I will always be cheering for you, choosing you, and finding new reasons to fall for you.\n\nToday is yours, my love. Make the biggest wish. You deserve every beautiful thing.`;
   const letterBody = $('#letter-body');
   let typing = false;
   $('#read-letter').addEventListener('click', () => {
